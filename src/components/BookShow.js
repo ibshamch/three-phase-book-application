@@ -23,7 +23,7 @@ const BookShow = ({ book, onDelete, onEdit }) => {
           Edit
         </button>
         <button className="delete" onClick={handleDeleteClick}>
-          Delete
+          Delet
         </button>
       </div>
     </div>
