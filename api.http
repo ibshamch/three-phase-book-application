@@ -1,0 +1,29 @@
+# Get All Books
+GET http://localhost:3001/books HTTP/1.1 
+Content-Type: application/json
+
+###
+
+# Create a Book
+POST http://localhost:3001/books HTTP/1.1 
+Content-Type: application/json
+
+{
+    "title" : "Ibsham Chaudhary"
+}
+
+###
+
+# Update a book 
+PUT http://localhost:3001/books/6a1a HTTP/1.1 
+Content-Type: application/json
+
+{
+    "title" : "Aisham Fatima"
+}
+
+###
+
+# Delete a book
+DELETE  http://localhost:3001/books/8571 HTTP/1.1 
+Content-Type: application/json
